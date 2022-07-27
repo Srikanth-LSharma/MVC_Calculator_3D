@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <div class="display">
+        <input type="text" id="display" readonly>
+
+        <div class="keys">
+            <div class="keys__first">
+                <input type="button" class="button operation" data-op="mod" value="%" id="mod">
+                <input type="button" class="button operation" data-op="sqrt" value="&radic;" id="sqrt">
+                <input type="button" class="button operation" data-op="power" value="x&#8319;" id="power">
+                <input type="button" class="button operation" data-op="inv" value="1 &#8725; x" id="inv">
+            </div>
+            <div>
+                <input type="button" class="button" value="CE" id="CE">
+                <input type="button" class="button" value="C" id="C">
+                <input type="button" class="button" value="&#8882;" id="del">
+                <input type="button" class="button operation" data-op="div" value="/" id="div">
+            </div>
+            <div >
+                <input type="button" class="button key" value="7" data-key="7" id="key7">
+                <input type="button" class="button key" value="8" data-key="8" id="key8">
+                <input type="button" class="button key" value="9" data-key="9" id="key9">
+                <input type="button" class="button operation" data-op="mult" value="x" id="mult">
+            </div>
+            <div>
+                <input type="button" class="button key" value="4" data-key="4" id="key4">
+                <input type="button" class="button key" value="5" data-key="5" id="key5">
+                <input type="button" class="button key" value="6" data-key="6" id="key6">
+                <input type="button" class="button operation" data-op="sub" value="-" id="sub">
+            </div>
+            <div>
+                <input type="button" class="button key" value="1" data-key="1" id="key1">
+                <input type="button" class="button key" value="2" data-key="2" id="key2">
+                <input type="button" class="button key" value="3" data-key="3" id="key3">
+                <input type="button" class="button operation" data-op="add" value="+" id="add">
+            </div>
+            <div>
+                <input type="button" class="button" value="&#177;">
+                <input type="button" class="button key" value="0" data-key="0" id="key0">
+                <input type="button" class="button key" value="." data-key="." id="keyDot">
+                <input type="button" class="button" data-op="eq" value="=" id="eq">
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
